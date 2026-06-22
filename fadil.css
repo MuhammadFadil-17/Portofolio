@@ -11,7 +11,7 @@
 }
 
 :root{
-    --bg-color: #080808;
+    --bg-color: #193c42;
     --second-bg-color: #131313;
     --text-color: white;
     --main-color: #00ffee;
@@ -272,7 +272,7 @@ span{
     margin: 3rem 0;
 }
 
-/* BASIC PROJECT MAYBE */
+/* BASIC PROJECT */
 .project{
     background: var(--bg-color);
 }
