@@ -11,7 +11,7 @@
 }
 
 :root{
-    --bg-color: #193c42;
+    --bg-color: #081b29;
     --second-bg-color: #131313;
     --text-color: white;
     --main-color: #00ffee;
@@ -23,7 +23,11 @@ html{
 }
 
 body{
-    background: var(--bg-color);
+     background:
+        radial-gradient(circle at top left, rgba(0,255,255,.08), transparent 35%),
+        radial-gradient(circle at bottom right, rgba(0,132,255,.08), transparent 35%),
+        #081b29;
+    /* background: var(--bg-color); */
     color: var(--text-color);
 }
 
@@ -172,7 +176,7 @@ span{
 .social-icons a:hover{
     color: var(--text-color);
     transform: scale(1.3) translateY(-5px);
-    box-shadow: 0 0 25px var(--main-color);
+    box-shadow: 0 0 15px var(--main-color);
     background-color: var(--main-color);
 }
 
@@ -182,7 +186,7 @@ span{
     display: inline-block;
     padding: 1rem 2.8rem;
     background: var(--main-color);
-    box-shadow: 0 0 25px var(--main-color);
+    box-shadow: 0 0 15px var(--main-color);
     border-radius: 4rem;
     font-size: 1.6rem;
     color: black;
@@ -225,15 +229,16 @@ span{
 /* ABOUT ME IMG */
 .about-img{
     border-radius: 50%;
-    animation: slideLeft 1.5s ease forwards;
 }
 .about-img img{
-    width: 18vw;
+    width: 20vw;
     border-radius: 50%;
     box-shadow: 0 0 25px var(--main-color);
-    transition: 0.3s ease-in-out;
+    cursor: pointer;
+
+    transition: 0.4s ease-in-out;
 }
-.about-img:hover{
+.about-img img:hover{
     box-shadow: 0 0 25px var(--main-color),
                 0 0 50px var(--main-color),
                 0 0 100px var(--main-color);
