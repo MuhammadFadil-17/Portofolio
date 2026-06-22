@@ -23,10 +23,9 @@ html{
 }
 
 body{
-     background:
-        radial-gradient(circle at top left, rgba(0,255,255,.08), transparent 35%),
-        radial-gradient(circle at bottom right, rgba(0,132,255,.08), transparent 35%),
-        #081b29;
+    background: radial-gradient(circle at top left, rgba(0,255,255,.08), transparent 35%),
+                radial-gradient(circle at bottom right, rgba(0,132,255,.08), transparent 35%),
+                #081b29;
     /* background: var(--bg-color); */
     color: var(--text-color);
 }
