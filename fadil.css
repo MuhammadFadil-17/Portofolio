@@ -287,6 +287,7 @@ span{
     background:
     radial-gradient(circle at center, rgba(0,255,255,.08), transparent 35%),
     #101820;
+    cursor: pointer;
 }
 
 
@@ -393,6 +394,7 @@ span{
 }
 .card p{
     font-size: 1.3rem;
+    text-align: left;
 }
 
 /* CONTACT ME */
